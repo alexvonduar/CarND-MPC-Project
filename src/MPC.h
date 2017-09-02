@@ -19,7 +19,7 @@ public:
 };
 
 // TODO: Set the timestep length and duration
-static const size_t N = 25;
+static const size_t N = 20;
 static const double dt = 0.05;
 
 // This value assumes the model presented in the classroom is used.

@@ -32,7 +32,7 @@ const size_t EPSI_OFF = CTE_OFF + N;
 const size_t DELTA_OFF = EPSI_OFF + N;
 const size_t ACC_OFF = DELTA_OFF + N - 1;
 
-// Weights for how "important" each cost is - can be tuned
+// Weights of costs
 const int W_CTE = 10000;
 const int W_EPSI = 10000;
 const int W_V = 10000;

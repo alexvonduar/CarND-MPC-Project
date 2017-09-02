@@ -142,7 +142,7 @@ int main()
 
           double epsi = -atan(coeffs[1]);
 
-          double latancy = 0.005; // 0.005s latency
+          double latancy = 0.1; // 0.1s latency
           double pred_px = 0.0 + v * latancy;
           double pred_py = 0.0;
           double pred_psi = 0.0 + v * -delta / Lf * latancy;
